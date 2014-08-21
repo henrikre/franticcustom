@@ -1,0 +1,48 @@
+/**
+*  -------------------------------------------
+*  Location
+*  -------------------------------------------
+*/
+
+.sub-location-container {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: $location-background-color;
+
+	header {
+		display: block;
+		width: 100%;
+		padding: 2.5em;
+
+		h2 {
+			margin-top: 0;
+			padding-top: 0;
+		}
+	}
+
+	.map-container {
+		display: block;
+		height: 100%;
+	}
+
+	a {
+		font-weight: 700;
+		color: $location-link-color;
+		text-decoration: none;
+	}
+}
+
+/**
+*  -------------------------------------------
+*  Google Maps
+*  -------------------------------------------
+*/
+
+#map-canvas {
+	min-height: 200px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}

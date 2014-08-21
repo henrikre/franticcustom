@@ -1,0 +1,24 @@
+/**
+*  -------------------------------------------
+*  Buttons
+*  -------------------------------------------
+*/
+
+a.button {
+	display: block;
+	max-width: 400px;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: $button-bg-color;
+	padding: .75em;
+	margin: 0 auto 1em;
+	transition: all .2s linear;
+
+	&:hover {
+		background-color: $blue;
+	}
+}

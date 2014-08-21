@@ -1,0 +1,43 @@
+/**
+*  -------------------------------------------
+*  Typography
+*  -------------------------------------------
+*/
+
+body {
+	color: $text-color;
+	font: #{$body-font-size}/#{$baseline} $body-font;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	margin: 0 0 $baseline 0;
+	font-weight: 300;
+}
+
+h1, h2, h3 {
+	font-family: "Quattrocento", serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 42px;
+	font-size: 4.2rem;
+	font-weight: 300px;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 32px;
+	font-size: 3.2rem;
+	font-weight: 300px;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.sub-mid-wrapper p {
+	font-size: 20px;
+	font-size: 2rem;
+}

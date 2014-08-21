@@ -1,0 +1,48 @@
+@import "normalize";
+
+/*****************************************
+* 11.7.2014
+* Frantic Training Exercise
+* Author: Henrik Reponen
+*****************************************/
+
+@import "variables";
+@import "typography";
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 92%;
+	padding: 1.5em 0;
+}
+
+.sub-mid-container {
+	padding: 1.5em;
+}
+
+.sub-content-wrapper, .sub-schedule-wrapper, .sub-location-wrapper {
+	background-color: $speakers-bg-color;
+	color: $heading-color;
+}
+
+@import "parts/navigation";
+@import "parts/header";
+@import "parts/speakers";
+@import "parts/schedule";
+@import "parts/registration";
+@import "parts/location";
+@import "parts/footer";
+@import "buttons";
+@import "icons";
+@import "responsive";
+@import "modal";
+@import "custom";

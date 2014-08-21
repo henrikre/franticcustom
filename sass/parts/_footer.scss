@@ -1,0 +1,46 @@
+/**
+*  -------------------------------------------
+*  Footer
+*  -------------------------------------------
+*/
+
+footer {
+	text-align: center;
+
+	a {
+		text-decoration: none;
+
+		&:hover .icon {
+
+		}
+	}
+
+	.icon {
+		color: $violet;
+		font-size: 38px;
+		font-size: 3.8rem;
+		padding: .5em;
+	}
+
+	.icon {
+		-webkit-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+
+		-webkit-transition-property: -webkit-transform;
+		-moz-transition-property: -moz-transform;
+		-o-transition-property: -o-transform;
+		transition-property: transform;
+
+		overflow:hidden;
+    }  
+ 
+	.icon:hover  
+	{
+		-webkit-transform:rotate(360deg);
+		-moz-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	} 
+
+}

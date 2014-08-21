@@ -1,0 +1,127 @@
+
+.logo {
+	margin: 0 auto;
+	padding: .75em 0;
+}
+
+.header-wrapper {
+	display: block;
+	padding: 0;
+	text-align: center;
+	color: $header-boxes-text-color;
+}
+
+.header-container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	.header-box {
+		transition: all 0.2s linear;
+	}
+
+	.header-boxes-row:first-child {
+		.header-box:nth-child(2) {
+			background: url('../images/business-woman-portrait.jpg');
+			background-size: 100%;
+			background-position: 20% 30%;
+			background-repeat: no-repeat;
+
+			&:hover {
+				background-size: 110%;
+			}
+		}
+
+		.header-box:nth-child(3) {
+			background: url('../images/businessman.jpg');
+			background-size: 100%;
+			background-position: 20% 30%;
+			background-repeat: no-repeat;
+
+			&:hover {
+				background-size: 110%;
+			}
+		}
+	}
+
+	.header-boxes-row:nth-child(2) {
+		.header-box:nth-child(1) {
+			background: url('../images/logo_eventcanister.png');
+			background-color: #fff;
+			background-size: 100%;
+			background-position: 20% 50%;
+			background-repeat: no-repeat;
+
+			&:hover {
+				background-size: 110%;
+				background-position: 50% 50%;
+			}
+		}
+
+		.header-box:nth-child(2) {
+			background: url('../images/male-darkbg.jpg');
+			background-size: 100%;
+			background-position: 20% 30%;
+			background-repeat: no-repeat;
+
+			&:hover {
+				background-size: 110%;
+			}
+		}
+
+		.header-box:nth-child(3) {
+			width: 100%;
+			background: url('../images/training.jpg');
+			background-size: 100%;
+			background-position: 20% 30%;
+			background-repeat: no-repeat;
+
+			&:hover {
+				background-size: 110%;
+			}
+		}
+	}
+
+	.header-box:hover {
+		transition: all 0.2s linear;
+	}
+}
+
+.header-boxes-row {
+	margin: 0;
+
+	background-color: $header-boxes-bg-color;
+
+	.header-box {
+		width: 50%;
+		height: 100%;
+		float: left;
+		
+		background-repeat: no-repeat;
+		padding-top: 25%;
+
+		position: relative;
+		top: 0;
+		background-size: 100%;
+		background-position: 20% 40%;
+		background-repeat: no-repeat;
+	}
+
+	.logo-box {
+		width: 100%;
+		padding: 0;
+	}
+
+	.date-box {
+		width: 100%;
+		float: none;
+		clear: both;
+		padding: 10% 0;
+	}
+
+	.header-box {
+		
+	}
+}

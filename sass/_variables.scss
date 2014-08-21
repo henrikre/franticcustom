@@ -1,0 +1,47 @@
+/**
+*  -------------------------------------------
+*  Variables
+*  -------------------------------------------
+*/
+
+/* Graphical Guideline Colors */
+$violet: #0c304a;
+$blue: #2b79a1;
+$vanilla: #f3f4f1;
+$green: #85a71e;
+$yellow: #bfd841;
+
+/* Typography variables */
+$text-color: #000;
+$heading-color: #fff;
+$body-font-size: 16px;
+$baseline: $body-font-size * 1.5;
+$theme-margin: $baseline * 3;
+
+$heading-font: "Quattrocentro Bold", serif;
+$body-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$navigation-bg-color: #fff;
+$navigation-text-color: $text-color;
+$navigation-hover-bg-color: $blue;
+$navigation-hover-text-color: #fff;
+$navigation-mobile-text-color: #fff;
+$navigation-mobile-bg-color: $violet;
+$navigation-button-bg-color: $blue;
+$navigation-register-text-color: #fff;
+$navigation-register-bg-color: $green;
+
+$header-boxes-bg-color: $violet; //$violet
+$header-boxes-text-color: white;
+
+$speakers-bg-color: $violet;
+
+$schedule-item-bg-color: $vanilla;
+$schedule-border-bottom-color: #e9e9e9;
+$schedule-wrapper-bg-color: $violet;
+
+$registration-bg-color: $green;
+$button-bg-color: $violet;
+
+$location-background-color: $blue;
+$location-link-color: #45C0FF;

@@ -1,0 +1,64 @@
+/**
+*  -------------------------------------------
+*  Schedule
+*  -------------------------------------------
+*/
+
+.sub-schdule-wrapper {
+	background-color: $schedule-wrapper-bg-color;
+}
+
+.sub-schdule-container {
+	width: 100%;
+	padding: 0;
+}
+
+.schedule-overview {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	justify-content: flex-start;
+	width: 100%;
+
+	.schedule-overview-item, .schedule-overview-header {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 100%;
+		-moz-box-flex: 1;
+		-moz-flex: 1 100%;
+		-ms-flex: 1 100%;
+		flex: 1 100%;
+	}
+	
+	.schedule-overview-header {
+
+		padding: 2.5em;
+	
+		h2 {
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.schedule-overview-item {
+		padding: 2.5em;
+		border-bottom: 1px solid $schedule-border-bottom-color;
+		color: $text-color;
+		background-color: $schedule-item-bg-color;
+
+		span {
+			display: block;
+			color: $green;
+		}
+	}
+}
